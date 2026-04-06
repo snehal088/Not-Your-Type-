@@ -1,0 +1,130 @@
+import { BusinessTemplate } from './types';
+
+export const BUSINESS_TEMPLATES: BusinessTemplate[] = [
+  {
+    name: 'Cozy Corner Cafe',
+    icon: 'Coffee',
+    description: 'A small neighborhood cafe with specialty coffee and pastries.',
+    image: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=800',
+    defaultCosts: [
+      { category: 'Rent (6 months)', amount: 12000 },
+      { category: 'Espresso Machine & Equipment', amount: 8500 },
+      { category: 'Interior Design & Furniture', amount: 15000 },
+      { category: 'Initial Inventory', amount: 3000 },
+      { category: 'Marketing & Licenses', amount: 2500 },
+    ],
+    suggestedLoan: {
+      bankName: 'SME Growth Bank',
+      interestRate: 7.5,
+      tenure: 48,
+    },
+  },
+  {
+    name: 'Urban Bike Showroom',
+    icon: 'Bike',
+    description: 'Premium bicycle showroom with workshop and accessories.',
+    image: 'https://images.unsplash.com/photo-1532298229144-0ee05165fe5d?auto=format&fit=crop&q=80&w=800',
+    defaultCosts: [
+      { category: 'Showroom Lease', amount: 25000 },
+      { category: 'Display Stock (50 Bikes)', amount: 45000 },
+      { category: 'Workshop Tools', amount: 7000 },
+      { category: 'Staff Salaries (3 months)', amount: 18000 },
+      { category: 'Branding & Signage', amount: 5000 },
+    ],
+    suggestedLoan: {
+      bankName: 'Industrial Credit Bank',
+      interestRate: 8.2,
+      tenure: 60,
+    },
+  },
+  {
+    name: 'Tech Innovation Hub',
+    icon: 'Cpu',
+    description: 'A modern co-working space and hardware prototyping lab.',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800',
+    defaultCosts: [
+      { category: 'Office Space Deposit', amount: 40000 },
+      { category: 'High-end Servers & Workstations', amount: 65000 },
+      { category: 'Networking Infrastructure', amount: 12000 },
+      { category: 'Legal & IP Protection', amount: 8000 },
+      { category: 'Utilities & Fiber Internet', amount: 4500 },
+    ],
+    suggestedLoan: {
+      bankName: 'Venture Debt Partners',
+      interestRate: 9.5,
+      tenure: 36,
+    },
+  },
+  {
+    name: 'Organic Grocery Store',
+    icon: 'ShoppingBag',
+    description: 'Fresh, local, and sustainable food market.',
+    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800',
+    defaultCosts: [
+      { category: 'Store Fitting & Shelving', amount: 20000 },
+      { category: 'Refrigeration Units', amount: 15000 },
+      { category: 'First Month Stock', amount: 12000 },
+      { category: 'POS System & Software', amount: 3500 },
+      { category: 'Waste Management Setup', amount: 2000 },
+    ],
+    suggestedLoan: {
+      bankName: 'Green Finance Corp',
+      interestRate: 6.8,
+      tenure: 48,
+    },
+  },
+  {
+    name: 'Elite Fitness Center',
+    icon: 'Dumbbell',
+    description: 'High-end gym with personal training and wellness spa.',
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800',
+    defaultCosts: [
+      { category: 'Gym Equipment (Lease)', amount: 35000 },
+      { category: 'Locker Room & Spa Fitout', amount: 25000 },
+      { category: 'HVAC & Ventilation', amount: 12000 },
+      { category: 'Marketing Launch', amount: 6000 },
+      { category: 'Insurance & Permits', amount: 4000 },
+    ],
+    suggestedLoan: {
+      bankName: 'Health & Wellness Credit',
+      interestRate: 7.2,
+      tenure: 60,
+    },
+  },
+  {
+    name: 'Boutique Fashion Store',
+    icon: 'Shirt',
+    description: 'Curated designer clothing and accessories boutique.',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800',
+    defaultCosts: [
+      { category: 'Initial Designer Stock', amount: 30000 },
+      { category: 'Custom Hangers & Displays', amount: 8000 },
+      { category: 'Lighting & Ambiance', amount: 5000 },
+      { category: 'E-commerce Integration', amount: 4000 },
+      { category: 'Grand Opening Event', amount: 3000 },
+    ],
+    suggestedLoan: {
+      bankName: 'Retail Growth Fund',
+      interestRate: 8.9,
+      tenure: 36,
+    },
+  },
+  {
+    name: 'Smart Cloud Kitchen',
+    icon: 'Utensils',
+    description: 'Delivery-only kitchen optimized for multiple food brands.',
+    image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800',
+    defaultCosts: [
+      { category: 'Commercial Kitchen Setup', amount: 50000 },
+      { category: 'Delivery Platform Integration', amount: 5000 },
+      { category: 'Packaging Design & Bulk Buy', amount: 7000 },
+      { category: 'Digital Marketing (SEO/Ads)', amount: 10000 },
+      { category: 'Health & Safety Compliance', amount: 3000 },
+    ],
+    suggestedLoan: {
+      bankName: 'Digital Food Ventures',
+      interestRate: 9.1,
+      tenure: 24,
+    },
+  },
+];
