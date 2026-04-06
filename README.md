@@ -1,7 +1,11 @@
 Group Name: NOT-YOUR-TYPE
+
 Group Members: Snehal Ray, Agni Das, Sameer Bist, Nilesh
+
 Domain: FINTECH
+
 Topic: AI BUSSINESS FINANCE ANALYZER 
+
 The AI Business Finance Analyzer is a comprehensive financial planning suite designed to bridge the gap between a business idea and its execution. It provides entrepreneurs with data-driven insights and AI-powered recommendations to secure funding and manage startup capital effectively.
 🚀 Core Features & Functionalities
 1. 📊 Smart Business Cost Calculator
